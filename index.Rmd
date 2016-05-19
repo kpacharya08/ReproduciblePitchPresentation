@@ -1,0 +1,40 @@
+---
+title: "Developing Data Products Course Project"
+author: "Krishna Acharya"
+date: "May 19, 2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## About the Project
+
+This is my Reproducible Pitch Presentation. In this presentation, I describe what I did in my shinyapp project.
+
+The project calculates the prime numbers based on the user input.
+
+## How it works
+
+- User enters a number in the input section.
+- All the prime numbers less than or equal to it are displayed as output
+
+## Logic used
+
+R function **Primes(n)** is used for calculating Prime numbers as shown by the snippet below.
+```{r cars, echo = TRUE}
+    library(numbers)
+    #Output of Primes(20)
+    Primes(20)
+```
+
+## The Application
+
+Please have a look at the application at
+
+https://kpacharya.shinyapps.io/PrimNum/
+
+**Thank You!**
+
+
